@@ -1,5 +1,5 @@
 class Sclack < Formula
-  include Homebrew::Formula::Virtualenv
+  include Language::Python::Virtualenv
   url "https://github.com/haskellcamargo/sclack.git"
   head "https://github.com/haskellcamargo/sclack.git"
   homepage "https://github.com/haskellcamargo/sclack"
