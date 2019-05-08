@@ -6,6 +6,7 @@ class Sclack < Formula
   desc "The best CLI client for Slack, because everuthing is terrible! (alpha)"
   version "alpha"
 
+  depends_on "python"
   depends_on "libcaca" => :optional
 
 
