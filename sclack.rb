@@ -7,7 +7,7 @@ class Sclack < Formula
   version "alpha"
 
   depends_on "pipenv"
-  optional "libcaca"
+  depends_on "libcaca" => :optional
 
 
   resource "asyncio" do
