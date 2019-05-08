@@ -4,6 +4,7 @@ class Sclack < Formula
   head "https://github.com/haskellcamargo/sclack.git"
   homepage "https://github.com/haskellcamargo/sclack"
   desc "The best CLI client for Slack, because everuthing is terrible! (alpha)"
+  version "alpha"
 
   depends_on "python"
   depends_on "libcaca" => :optional
