@@ -76,4 +76,10 @@ class Sclack < Formula
     libexec.install "config.json"
     bin.install_symlink libexec/"config.json"
   end
+
+
+  def caveats; <<~EOS
+    for now, you should add alias to your bashrc/zshrc, etc
+    alias sclack='(cd /usr/local/Cellar/sclack/#{version}/bin/;./app.py)'
+  EOS
 end
