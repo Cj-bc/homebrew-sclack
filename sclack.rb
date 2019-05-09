@@ -73,8 +73,6 @@ class Sclack < Formula
 
   def install
     virtualenv_install_with_resources
-    system "cp", "app.py", "sclack"
-    bin.install "sclack"
     libexec.install "config.json"
     bin.install_symlink libexec/"config.json"
   end
