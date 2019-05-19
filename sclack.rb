@@ -82,4 +82,5 @@ class Sclack < Formula
     for now, you should add alias to your bashrc/zshrc, etc
     alias sclack='(cd /usr/local/Cellar/sclack/#{version}/bin/;./app.py)'
   EOS
+  end
 end
